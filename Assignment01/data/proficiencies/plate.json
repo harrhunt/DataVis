@@ -1,0 +1,1 @@
+{"index": "plate", "type": "Armor", "name": "Plate", "classes": [], "races": [], "url": "/api/proficiencies/plate", "reference": {"index": "plate", "name": "Plate", "url": "/api/equipment/plate"}, "references": [{"index": "plate", "name": "Plate", "type": "equipment", "url": "/api/equipment/plate"}]}

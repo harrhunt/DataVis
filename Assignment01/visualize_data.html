@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="cdae5dc8-255c-4a3e-af0a-2d72df6118aa" data-root-id="1004"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1217">
+          {"067630cc-776a-4e65-abb5-6e8246f9c091":{"defs":[],"roots":{"references":[{"attributes":{"range":{"id":"1005"},"width":0.3},"id":"1033","type":"Jitter"},{"attributes":{"factors":["Chaotic","Neutral","Lawful"]},"id":"1005","type":"FactorRange"},{"attributes":{"source":{"id":"1003"}},"id":"1046","type":"CDSView"},{"attributes":{"coordinates":null,"formatter":{"id":"1051"},"group":null,"major_label_policy":{"id":"1052"},"ticker":{"id":"1017"}},"id":"1016","type":"CategoricalAxis"},{"attributes":{},"id":"1058","type":"UnionRenderers"},{"attributes":{"coordinates":null,"formatter":{"id":"1054"},"group":null,"major_label_policy":{"id":"1055"},"ticker":{"id":"1014"}},"id":"1013","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"orange"},"hatch_alpha":{"value":0.3},"hatch_color":{"value":"orange"},"line_alpha":{"value":0.3},"line_color":{"value":"orange"},"size":{"field":"challenge_rating"},"x":{"field":"ethics","transform":{"id":"1033"}},"y":{"field":"morals","transform":{"id":"1034"}}},"id":"1036","type":"Circle"},{"attributes":{},"id":"1051","type":"CategoricalTickFormatter"},{"attributes":{"data":{"count":[138,9,36,84,63,27,117,9,57],"ethics":["Chaotic","Chaotic","Chaotic","Neutral","Neutral","Neutral","Lawful","Lawful","Lawful"],"morals":["Evil","Neutral","Good","Evil","Neutral","Good","Evil","Neutral","Good"]},"selected":{"id":"1059"},"selection_policy":{"id":"1058"}},"id":"1003","type":"ColumnDataSource"},{"attributes":{},"id":"1059","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"orange"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"orange"},"line_alpha":{"value":0.2},"line_color":{"value":"orange"},"size":{"field":"challenge_rating"},"x":{"field":"ethics","transform":{"id":"1033"}},"y":{"field":"morals","transform":{"id":"1034"}}},"id":"1038","type":"Circle"},{"attributes":{},"id":"1052","type":"AllLabels"},{"attributes":{"range":{"id":"1007"},"width":0.3},"id":"1034","type":"Jitter"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1025","type":"BoxAnnotation"},{"attributes":{"coordinates":null,"group":null},"id":"1048","type":"Title"},{"attributes":{"axis":{"id":"1013"},"coordinates":null,"group":null,"ticker":null},"id":"1015","type":"Grid"},{"attributes":{},"id":"1054","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1023","type":"ResetTool"},{"attributes":{"tools":[{"id":"1019"},{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"}]},"id":"1026","type":"Toolbar"},{"attributes":{},"id":"1055","type":"AllLabels"},{"attributes":{},"id":"1017","type":"CategoricalTicker"},{"attributes":{},"id":"1014","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"1016"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1018","type":"Grid"},{"attributes":{},"id":"1024","type":"HelpTool"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1036"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1038"},"nonselection_glyph":{"id":"1037"},"view":{"id":"1040"}},"id":"1039","type":"GlyphRenderer"},{"attributes":{},"id":"1019","type":"PanTool"},{"attributes":{"data":{"challenge_rating":[33,45,51,42,48,45,54,48,54,51,42,18,66,72,63,69,66,75,69,75,72,63,54,9,60,18,12,36,9,3.75,12,39,6,9,6,9,27,21,15,27,30,6,15,6,4.5,33,36,54,3.75,21,3.75,6,6,4.5,18,36,39,9,15,18,30,18,27,9,9,6,6,3.75,6,9,30,4.5,3.75,12,9,12,9,3.75,33,36,6,12,27,18,4.5,3,36,45,4.5,6,21,3.375,72,15,3,4.5,4.5,4.5,12,51,21,3.375,9,9,9,12,48,12,42,18,12,9,9,24,4.5,18,9,63,51,3.75,6,42,15,18,4.5,18,4.5,9,4.5,9,3.75,66,6,27,3.75,3.75,24,42,15,30,18,18,18,42,21,4.5,18,18,18,18,15,15,15,9,9,9,15,15,15,12,12,12,9,12,9,12,4.5,18,18,24,30,21,27,24,33,27,33,30,21,3.75],"ethics":["Lawful","Chaotic","Lawful","Chaotic","Lawful","Chaotic","Lawful","Lawful","Chaotic","Lawful","Chaotic","Neutral","Chaotic","Lawful","Chaotic","Lawful","Chaotic","Lawful","Lawful","Chaotic","Lawful","Chaotic","Lawful","Lawful","Chaotic","Lawful","Lawful","Neutral","Chaotic","Lawful","Lawful","Lawful","Chaotic","Lawful","Chaotic","Neutral","Lawful","Chaotic","Chaotic","Chaotic","Neutral","Chaotic","Lawful","Neutral","Neutral","Lawful","Chaotic","Neutral","Chaotic","Chaotic","Neutral","Neutral","Lawful","Neutral","Neutral","Lawful","Lawful","Neutral","Chaotic","Neutral","Lawful","Neutral","Neutral","Chaotic","Chaotic","Chaotic","Neutral","Neutral","Neutral","Neutral","Chaotic","Chaotic","Neutral","Lawful","Lawful","Neutral","Neutral","Neutral","Lawful","Lawful","Chaotic","Lawful","Chaotic","Chaotic","Lawful","Neutral","Lawful","Lawful","Neutral","Lawful","Neutral","Lawful","Chaotic","Chaotic","Lawful","Neutral","Neutral","Chaotic","Lawful","Chaotic","Lawful","Neutral","Chaotic","Neutral","Lawful","Chaotic","Lawful","Lawful","Chaotic","Neutral","Neutral","Neutral","Chaotic","Lawful","Chaotic","Neutral","Chaotic","Lawful","Lawful","Neutral","Chaotic","Lawful","Chaotic","Neutral","Lawful","Neutral","Chaotic","Chaotic","Chaotic","Lawful","Lawful","Lawful","Chaotic","Chaotic","Neutral","Neutral","Neutral","Chaotic","Neutral","Chaotic","Chaotic","Lawful","Neutral","Lawful","Chaotic","Lawful","Neutral","Neutral","Neutral","Neutral","Neutral","Neutral","Neutral","Lawful","Lawful","Lawful","Neutral","Neutral","Neutral","Chaotic","Chaotic","Chaotic","Chaotic","Neutral","Chaotic","Neutral","Neutral","Neutral","Neutral","Chaotic","Lawful","Chaotic","Lawful","Chaotic","Lawful","Lawful","Chaotic","Lawful","Chaotic","Neutral"],"morals":["Evil","Evil","Evil","Good","Good","Good","Good","Evil","Evil","Good","Evil","Neutral","Evil","Evil","Good","Good","Good","Good","Evil","Evil","Good","Evil","Neutral","Neutral","Evil","Evil","Evil","Evil","Evil","Good","Evil","Evil","Good","Good","Evil","Good","Evil","Evil","Evil","Neutral","Good","Good","Good","Evil","Good","Good","Good","Neutral","Evil","Evil","Evil","Neutral","Evil","Evil","Neutral","Evil","Evil","Evil","Evil","Neutral","Evil","Neutral","Evil","Evil","Evil","Evil","Good","Neutral","Evil","Neutral","Evil","Evil","Evil","Good","Evil","Evil","Neutral","Evil","Good","Neutral","Evil","Evil","Evil","Evil","Evil","Neutral","Evil","Evil","Evil","Evil","Neutral","Evil","Evil","Evil","Evil","Neutral","Evil","Neutral","Evil","Evil","Evil","Neutral","Evil","Neutral","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Neutral","Good","Evil","Good","Good","Evil","Evil","Evil","Evil","Evil","Evil","Neutral","Evil","Evil","Good","Evil","Good","Evil","Evil","Good","Evil","Neutral","Good","Evil","Good","Evil","Good","Evil","Evil","Evil","Evil","Neutral","Good","Good","Good","Evil","Evil","Evil","Evil","Evil","Evil","Neutral","Neutral","Neutral","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Evil","Neutral","Evil","Evil","Good","Good","Good","Good","Evil","Evil","Good","Evil","Evil"],"names":["Aboleth","Adult Black Dragon","Adult Blue Dragon","Adult Brass Dragon","Adult Bronze Dragon","Adult Copper Dragon","Adult Gold Dragon","Adult Green Dragon","Adult Red Dragon","Adult Silver Dragon","Adult White Dragon","Air Elemental","Ancient Black Dragon","Ancient Blue Dragon","Ancient Brass Dragon","Ancient Bronze Dragon","Ancient Copper Dragon","Ancient Gold Dragon","Ancient Green Dragon","Ancient Red Dragon","Ancient Silver Dragon","Ancient White Dragon","Androsphinx","Azer","Balor","Barbed Devil","Bearded Devil","Behir","Black Dragon Wyrmling","Blink Dog","Blue Dragon Wyrmling","Bone Devil","Brass Dragon Wyrmling","Bronze Dragon Wyrmling","Bugbear","Centaur","Chain Devil","Chimera","Chuul","Cloaker","Cloud Giant","Copper Dragon Wyrmling","Couatl","Death Dog","Deep Gnome (Svirfneblin)","Deva","Djinni","Dragon Turtle","Dretch","Drider","Drow","Dryad","Duergar","Dust Mephit","Earth Elemental","Efreeti","Erinyes","Ettercap","Ettin","Fire Elemental","Fire Giant","Flesh Golem","Frost Giant","Gargoyle","Ghast","Ghoul","Giant Eagle","Giant Owl","Giant Vulture","Gibbering Mouther","Glabrezu","Gnoll","Goblin","Gold Dragon Wyrmling","Green Dragon Wyrmling","Green Hag","Grick","Grimlock","Guardian Naga","Gynosphinx","Harpy","Hell Hound","Hezrou","Hill Giant","Hobgoblin","Homunculus","Horned Devil","Ice Devil","Ice Mephit","Imp","Invisible Stalker","Kobold","Kraken","Lamia","Lemure","Lizardfolk","Magma Mephit","Magmin","Manticore","Marilith","Medusa","Merfolk","Merrow","Mimic","Minotaur Skeleton","Minotaur","Mummy Lord","Mummy","Nalfeshnee","Night Hag","Nightmare","Ogre Zombie","Ogre","Oni","Orc","Otyugh","Pegasus","Pit Fiend","Planetar","Pseudodragon","Quasit","Rakshasa","Red Dragon Wyrmling","Roper","Sahuagin","Salamander","Satyr","Sea Hag","Shadow","Silver Dragon Wyrmling","Skeleton","Solar","Specter","Spirit Naga","Sprite","Steam Mephit","Stone Giant","Storm Giant","Succubus/Incubus","Treant","Troll","Unicorn","Vampire Spawn","Vampire","Vrock","Warhorse Skeleton","Water Elemental","Werebear, Bear Form","Werebear, Human Form","Werebear, Hybrid Form","Wereboar, Boar Form","Wereboar, Human Form","Wereboar, Hybrid Form","Wererat, Human Form","Wererat, Hybrid Form","Wererat, Rat Form","Weretiger, Human Form","Weretiger, Hybrid Form","Weretiger, Tiger Form","Werewolf, Human Form","Werewolf, Hybrid Form","Werewolf, Wolf Form","White Dragon Wyrmling","Wight","Will-o'-Wisp","Winter Wolf","Worg","Wraith","Xorn","Young Black Dragon","Young Blue Dragon","Young Brass Dragon","Young Bronze Dragon","Young Copper Dragon","Young Gold Dragon","Young Green Dragon","Young Red Dragon","Young Silver Dragon","Young White Dragon","Zombie"]},"selected":{"id":"1057"},"selection_policy":{"id":"1056"}},"id":"1002","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1002"}},"id":"1040","type":"CDSView"},{"attributes":{},"id":"1020","type":"WheelZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"red"},"line_alpha":{"value":0.1},"line_color":{"value":"red"},"size":{"field":"count"},"x":{"field":"ethics"},"y":{"field":"morals"}},"id":"1043","type":"Circle"},{"attributes":{},"id":"1056","type":"UnionRenderers"},{"attributes":{},"id":"1022","type":"SaveTool"},{"attributes":{},"id":"1057","type":"Selection"},{"attributes":{"overlay":{"id":"1025"}},"id":"1021","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"red"},"line_alpha":{"value":0.2},"line_color":{"value":"red"},"size":{"field":"count"},"x":{"field":"ethics"},"y":{"field":"morals"}},"id":"1042","type":"Circle"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1015"},{"id":"1018"}],"left":[{"id":"1016"}],"renderers":[{"id":"1039"},{"id":"1045"}],"title":{"id":"1048"},"toolbar":{"id":"1026"},"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1004","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1009","type":"CategoricalScale"},{"attributes":{"factors":["Evil","Neutral","Good"]},"id":"1007","type":"FactorRange"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"orange"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"orange"},"line_alpha":{"value":0.1},"line_color":{"value":"orange"},"size":{"field":"challenge_rating"},"x":{"field":"ethics","transform":{"id":"1033"}},"y":{"field":"morals","transform":{"id":"1034"}}},"id":"1037","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"red"},"line_alpha":{"value":0.2},"line_color":{"value":"red"},"size":{"field":"count"},"x":{"field":"ethics"},"y":{"field":"morals"}},"id":"1044","type":"Circle"},{"attributes":{"coordinates":null,"data_source":{"id":"1003"},"glyph":{"id":"1042"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1044"},"nonselection_glyph":{"id":"1043"},"view":{"id":"1046"}},"id":"1045","type":"GlyphRenderer"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1217').textContent;
+                  const render_items = [{"docid":"067630cc-776a-4e65-abb5-6e8246f9c091","root_ids":["1004"],"roots":{"1004":"cdae5dc8-255c-4a3e-af0a-2d72df6118aa"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

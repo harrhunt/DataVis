@@ -1,0 +1,1 @@
+{"index": "skill-intimidation", "type": "Skills", "name": "Skill: Intimidation", "classes": [], "races": [], "url": "/api/proficiencies/skill-intimidation", "reference": {"index": "intimidation", "name": "Intimidation", "url": "/api/skills/intimidation"}, "references": [{"index": "intimidation", "name": "Intimidation", "type": "skills", "url": "/api/skills/intimidation"}]}
